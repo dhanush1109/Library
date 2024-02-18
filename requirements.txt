@@ -1,0 +1,6 @@
+## Requirements
+Python 3.x
+Flask
+Flask-MySQLdb
+pandas
+scikit-learn
