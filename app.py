@@ -6,9 +6,9 @@ from sklearn.metrics.pairwise import linear_kernel
 
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Dhanush@07'
-app.config['MYSQL_DB'] = 'library'
+app.config['MYSQL_USER'] = 'yourusername'
+app.config['MYSQL_PASSWORD'] = 'yourpassword'
+app.config['MYSQL_DB'] = 'yourdatabasename'
 
 db = MySQL(app)
 
